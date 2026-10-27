@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: quorumpilot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python app.py
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: "7860"
+      - key: PYTHON_VERSION
+        value: "3.11.9"

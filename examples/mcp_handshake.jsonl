@@ -1,0 +1,5 @@
+{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{},"clientInfo":{"name":"quorumpilot-demo","version":"1.0.0"}}}
+{"jsonrpc":"2.0","method":"notifications/initialized"}
+{"jsonrpc":"2.0","id":2,"method":"tools/list"}
+{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"review_trade","arguments":{"account":{"currency":"USD","equity":25000,"free_margin":18000,"used_margin":4200,"positions":[{"symbol":"EURUSD","side":"long","units":100000,"entry":1.0850,"stop":1.0800,"current":1.0872},{"symbol":"XAUUSD","side":"long","units":20,"entry":2400.0,"stop":2380.0,"current":2412.5}]},"proposal":{"symbol":"GBPUSD","side":"long","units":500000,"entry":1.265,"stop":1.26,"take_profit":1.27,"leverage":30,"horizon_days":5},"policy":{"max_leverage":20}}}}
+{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"explain_verdict","arguments":{}}}

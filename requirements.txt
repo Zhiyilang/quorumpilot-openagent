@@ -1,0 +1,2 @@
+# Core is standard-library only. Gradio is needed for app.py / the MCP endpoint.
+gradio>=5.0

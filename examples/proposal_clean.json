@@ -1,0 +1,20 @@
+{
+  "_comment": "The boring, correct ticket: 0.06% of equity at risk, 2.3:1 reward, margin untouched. Used as the negative control - the quorum must clear it and must not invent problems.",
+  "account": {
+    "currency": "USD",
+    "equity": 50000,
+    "free_margin": 45000,
+    "used_margin": 0,
+    "positions": []
+  },
+  "proposal": {
+    "symbol": "EURUSD",
+    "side": "long",
+    "units": 10000,
+    "entry": 1.0850,
+    "stop": 1.0820,
+    "take_profit": 1.0920,
+    "leverage": 10,
+    "horizon_days": 3
+  }
+}

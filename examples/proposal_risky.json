@@ -1,0 +1,26 @@
+{
+  "_comment": "Deliberately reckless ticket: 10% of equity at risk, 25x effective leverage, margin that does not fit, 1:1 reward, and it stacks onto two positions that already share the same currency. Every cap is breached so the quorum can show what a REJECT looks like.",
+  "account": {
+    "currency": "USD",
+    "equity": 25000,
+    "free_margin": 18000,
+    "used_margin": 4200,
+    "positions": [
+      {"symbol": "EURUSD", "side": "long", "units": 100000, "entry": 1.0850, "stop": 1.0800, "current": 1.0872},
+      {"symbol": "XAUUSD", "side": "long", "units": 20, "entry": 2400.00, "stop": 2380.00, "current": 2412.50}
+    ]
+  },
+  "proposal": {
+    "symbol": "GBPUSD",
+    "side": "long",
+    "units": 500000,
+    "entry": 1.2650,
+    "stop": 1.2600,
+    "take_profit": 1.2700,
+    "leverage": 30,
+    "horizon_days": 5
+  },
+  "policy": {
+    "max_leverage": 20
+  }
+}

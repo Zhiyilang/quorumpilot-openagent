@@ -1,0 +1,4 @@
+[
+  {"market": "GBPUSD", "size": 50000, "open": 1.2650, "sl": 1.2600, "side": "long"},
+  {"market": "EURUSD", "size": 120000, "open": 1.0850, "side": "long"}
+]

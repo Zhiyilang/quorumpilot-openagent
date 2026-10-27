@@ -1,0 +1,10 @@
+{
+  "symbol": "GBPUSD",
+  "side": "long",
+  "units": 200000,
+  "entry": 1.2665,
+  "stop": 1.2600,
+  "take_profit": 1.2800,
+  "leverage": 30,
+  "horizon_days": 5
+}

@@ -1,0 +1,25 @@
+{
+  "_comment": "Nothing is actually broken, but three specialists are unhappy: the ticket leans the same way as an open EURUSD, it eats 73% of the portfolio risk budget, and free margin would fall to 5.5% (above the 5% floor, but only just). Expected verdict: PROCEED_WITH_CAUTION - not a block, not a free pass.",
+  "account": {
+    "currency": "USD",
+    "equity": 20000,
+    "free_margin": 3000,
+    "used_margin": 17000,
+    "positions": [
+      {"symbol": "EURUSD", "side": "long", "units": 100000, "entry": 1.0850, "stop": 1.0800, "current": 1.0860}
+    ]
+  },
+  "proposal": {
+    "symbol": "GBPUSD",
+    "side": "long",
+    "units": 15000,
+    "entry": 1.2650,
+    "stop": 1.2400,
+    "take_profit": 1.3100,
+    "leverage": 10,
+    "horizon_days": 10
+  },
+  "policy": {
+    "min_free_margin_pct": 5
+  }
+}

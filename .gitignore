@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.receipts/
+out/
+*.html
+!examples/*.html
+.DS_Store
+.idea/
+.vscode/
