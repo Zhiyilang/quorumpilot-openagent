@@ -272,3 +272,12 @@ verifier and leave the verdict unchanged.
 Set `NEMOTRON_API_KEY` (free tier at build.nvidia.com) to run the LLM tier;
 without it the deterministic quorum runs the identical pipeline and the demo
 still produces the full transcript.
+
+---
+
+## 💝 赞助 / 打赏
+
+如果这个项目对你有帮助，欢迎通过 **爱发电** 请我喝杯咖啡 ☕  
+👉 https://afdian.com/a/Zhiyilang
+
+> GitHub Sponsors 在中国大陆暂不支持个人账号，赞助统一走爱发电。
